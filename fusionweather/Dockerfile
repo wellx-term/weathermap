@@ -1,4 +1,5 @@
-FROM 100.125.0.198:20202/hwcse/dockerhub-java:8-jre-alpine
+#FROM 100.125.0.198:20202/hwcse/dockerhub-java:8-jre-alpine
+FROM 100.125.17.64:20202/hwcse-cn-east-2/dockerhub-java:8-jre-alpine
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone
