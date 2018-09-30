@@ -1,6 +1,6 @@
-#From 100.125.0.198:20202/hwcse/nodejs:1.0.0 north
+From 100.125.0.198:20202/hwcse/nodejs:1.0.0
 #FROM 100.125.17.64:20202/hwcse-cn-east-2/nodejs:1.0.0 #east
-FROM 100.125.16.65:20202/hwcse-cn-south-1/nodejs:1.0.0
+#FROM 100.125.16.65:20202/hwcse-cn-south-1/nodejs:1.0.0
 
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
